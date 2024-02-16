@@ -1,0 +1,23 @@
+
+A simple way to use a random User Agent would be using Python's fake_useragent module as follows :
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from fake_useragent import UserAgent
+
+options = Options()
+ua = UserAgent()
+userAgent = ua.random
+print(userAgent)
+options.add_argument(f'user-agent={userAgent}')
+
+OR
+
+from fake_useragent import UserAgent
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+
+options = Options()
+options.set_preference("general.useragent.override", UserAgent().random)
+options.add_argument("--headless")
+driver = webdriver.Firefox(options=options)

@@ -1,0 +1,4 @@
+my_test_logger: CRITICAL: 2023-06-19 16:20:14,905: this is a critical message
+my_test_logger: ERROR: 2023-06-19 16:20:14,905: this is a error message
+my_test_logger: WARNING: 2023-06-19 16:20:14,905: this is a warning message
+my_test_logger: INFO: 2023-06-19 16:20:14,905: this is a info message

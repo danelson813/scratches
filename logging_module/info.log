@@ -1,0 +1,5 @@
+
+2023-12-17 17:24:59,259 | /Users/dannelson/Desktop/logging_module/log_module.py - 20 | INFO: Logging has been started
+2023-12-17 17:24:59,259 | /Users/dannelson/Desktop/logging_module/main.py - 4 | INFO: this is from Main.py.
+2023-12-17 17:26:18,825 | /Users/dannelson/Desktop/logging_module/utils/log_module.py - 20 | INFO: Logging has been started
+2023-12-17 17:26:18,826 | /Users/dannelson/Desktop/logging_module/main.py - 4 | INFO: this is from Main.py.
